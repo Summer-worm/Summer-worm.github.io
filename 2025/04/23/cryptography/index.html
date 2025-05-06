@@ -20,30 +20,32 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="May my work change this world">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Summer-worm的空间">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="这篇文章用来整理密码学知识，从数论和抽象代数的基础知识开始： 数论部分：1. 整除的定义：a&#x3D;bc (a,b,c\in Z) , 那么 b |a。2. 整除的几条基本性质：2.1：若， ，则  2.2：若， ，则  2.3: 若， ，则   素数的定义：  一个数 被称为素数，当且仅当它仅有 和 两个正约数。 若 ，那么 或   最大公约数（General common divisor)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="密码学（一）">
+<meta property="og:url" content="http://example.com/2025/04/23/cryptography/index.html">
 <meta property="og:site_name" content="Summer-worm的空间">
-<meta property="og:description" content="May my work change this world">
+<meta property="og:description" content="这篇文章用来整理密码学知识，从数论和抽象代数的基础知识开始： 数论部分：1. 整除的定义：a&#x3D;bc (a,b,c\in Z) , 那么 b |a。2. 整除的几条基本性质：2.1：若， ，则  2.2：若， ，则  2.3: 若， ，则   素数的定义：  一个数 被称为素数，当且仅当它仅有 和 两个正约数。 若 ，那么 或   最大公约数（General common divisor)">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-04-23T09:12:07.000Z">
+<meta property="article:modified_time" content="2025-04-23T09:37:33.879Z">
 <meta property="article:author" content="Summer-worm">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2025/04/23/cryptography/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Summer-worm的空间</title>
+  <title>密码学（一） | Summer-worm的空间</title>
   
 
 
@@ -166,66 +168,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/04/23/cryptography-1/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="C:/Users/Boyang  Du/Desktop/素材/head.jpg">
-      <meta itemprop="name" content="Summer-worm">
-      <meta itemprop="description" content="May my work change this world">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Summer-worm的空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2025/04/23/cryptography-1/" class="post-title-link" itemprop="url">cryptography</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2025-04-23 18:44:55" itemprop="dateCreated datePublished" datetime="2025-04-23T18:44:55+08:00">2025-04-23</time>
-            </span>
-
-          
-
-        </div>
-      </header>
 
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -241,10 +187,9 @@
       <meta itemprop="name" content="Summer-worm的空间">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2025/04/23/cryptography/" class="post-title-link" itemprop="url">密码学（一）</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          密码学（一）
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -258,6 +203,13 @@
             </span>
 
           
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
 
         </div>
       </header>
@@ -268,7 +220,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>这篇文章用来整理密码学知识，从数论和抽象代数的基础知识开始：</p>
+        <p>这篇文章用来整理密码学知识，从数论和抽象代数的基础知识开始：</p>
 <h3 id="数论部分："><a href="#数论部分：" class="headerlink" title="数论部分："></a><strong>数论部分：</strong></h3><h2 id="1-整除的定义：a-bc-a-b-c-in-Z-那么-b-a。"><a href="#1-整除的定义：a-bc-a-b-c-in-Z-那么-b-a。" class="headerlink" title="1. 整除的定义：a&#x3D;bc (a,b,c\in Z) , 那么 b |a。"></a>1. 整除的定义：a&#x3D;bc (a,b,c\in Z) , 那么 b |a。</h2><h2 id="2-整除的几条基本性质："><a href="#2-整除的几条基本性质：" class="headerlink" title="2. 整除的几条基本性质："></a>2. 整除的几条基本性质：</h2><h1 id="2-1：若"><a href="#2-1：若" class="headerlink" title="2.1：若"></a>2.1：若</h1><p>，<br> ，则 </p>
 <p>2.2：若<br>，<br> ，则 </p>
 <p>2.3: 若<br>，<br> ，则 </p>
@@ -428,86 +380,33 @@
 </ol>
 <p>（注意，这里最好把次数<br> 用二进制表示，这个方法名为’Fast Power Algorithm’）</p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/30/hello-world/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="C:/Users/Boyang  Du/Desktop/素材/head.jpg">
-      <meta itemprop="name" content="Summer-worm">
-      <meta itemprop="description" content="May my work change this world">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Summer-worm的空间">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/07/30/hello-world/" class="post-title-link" itemprop="url">Summer-worm的个人空间</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2023-07-30 15:47:11" itemprop="dateCreated datePublished" datetime="2023-07-30T15:47:11+08:00">2023-07-30</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-08-21 14:07:21" itemprop="dateModified" datetime="2023-08-21T14:07:21+08:00">2023-08-21</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>欢迎来到我的空间，我会在这里创作一些有趣的内容。<br>Welcome to my space. I will write something interesting here.</p>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/07/30/hello-world/" rel="prev" title="Summer-worm的个人空间">
+      <i class="fa fa-chevron-left"></i> Summer-worm的个人空间
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2025/04/23/cryptography-1/" rel="next" title="cryptography">
+      cryptography <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -560,6 +459,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E8%AE%BA%E9%83%A8%E5%88%86%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">数论部分：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E6%95%B4%E9%99%A4%E7%9A%84%E5%AE%9A%E4%B9%89%EF%BC%9Aa-bc-a-b-c-in-Z-%E9%82%A3%E4%B9%88-b-a%E3%80%82"><span class="nav-number"></span> <span class="nav-text">1. 整除的定义：a&#x3D;bc (a,b,c\in Z) , 那么 b |a。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E6%95%B4%E9%99%A4%E7%9A%84%E5%87%A0%E6%9D%A1%E5%9F%BA%E6%9C%AC%E6%80%A7%E8%B4%A8%EF%BC%9A"><span class="nav-number"></span> <span class="nav-text">2. 整除的几条基本性质：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-1%EF%BC%9A%E8%8B%A5"><span class="nav-number"></span> <span class="nav-text">2.1：若</span></a></div>
       </div>
       <!--/noindex-->
 
