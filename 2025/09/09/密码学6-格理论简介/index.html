@@ -17,13 +17,13 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"spaceprobevoyager.org","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="什么是格？它的来源又是什么？我们为什么要用它来做密码？ 用例子来说明这些问题。 1. 两个简单例子： 第一个例子：还是从经典的同余结构入手，Alice和Bob利用大数与同余来传递信息。 首先Alice需要找到一个足够大的正整数 p 并对外公布，之后她再选择两个正整数f，q作为私钥，其中  。而且f与 qg的最大公因数为1，即gcd(f,qg)&#x3D;1。（为什么要对 f, g 做如下限制呢">
 <meta property="og:type" content="article">
 <meta property="og:title" content="密码学（六）：格理论简介">
-<meta property="og:url" content="http://example.com/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A66-%E6%A0%BC%E7%90%86%E8%AE%BA%E7%AE%80%E4%BB%8B/index.html">
+<meta property="og:url" content="http://spaceprobevoyager.org/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A66-%E6%A0%BC%E7%90%86%E8%AE%BA%E7%AE%80%E4%BB%8B/index.html">
 <meta property="og:site_name" content="Voyager 1的空间">
 <meta property="og:description" content="什么是格？它的来源又是什么？我们为什么要用它来做密码？ 用例子来说明这些问题。 1. 两个简单例子： 第一个例子：还是从经典的同余结构入手，Alice和Bob利用大数与同余来传递信息。 首先Alice需要找到一个足够大的正整数 p 并对外公布，之后她再选择两个正整数f，q作为私钥，其中  。而且f与 qg的最大公因数为1，即gcd(f,qg)&#x3D;1。（为什么要对 f, g 做如下限制呢">
 <meta property="og:locale" content="zh_CN">
@@ -35,7 +35,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://pic4.zhimg.com/v2-240e35556fb88f2d409faadc65fb7cf3_1440w.jpg">
 
-<link rel="canonical" href="http://example.com/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A66-%E6%A0%BC%E7%90%86%E8%AE%BA%E7%AE%80%E4%BB%8B/">
+<link rel="canonical" href="http://spaceprobevoyager.org/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A66-%E6%A0%BC%E7%90%86%E8%AE%BA%E7%AE%80%E4%BB%8B/">
 
 
 <script id="page-configurations">
@@ -290,7 +290,7 @@ mjx-container[display="true"] + br {
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A66-%E6%A0%BC%E7%90%86%E8%AE%BA%E7%AE%80%E4%BB%8B/">
+    <link itemprop="mainEntityOfPage" href="http://spaceprobevoyager.org/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A66-%E6%A0%BC%E7%90%86%E8%AE%BA%E7%AE%80%E4%BB%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="C:/Users/Boyang  Du/Desktop/素材/head.jpg">
@@ -727,8 +727,8 @@ reduced）。</p>
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/07/30/hello-world/" rel="prev" title="Summer-Worm的个人空间">
-      <i class="fa fa-chevron-left"></i> Summer-Worm的个人空间
+    <a href="/2023/07/30/Voyager1/" rel="prev" title="Voyager 1的个人空间">
+      <i class="fa fa-chevron-left"></i> Voyager 1的个人空间
     </a></div>
       <div class="post-nav-item">
     <a href="/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A65-%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%AF%86%E7%A0%81%E5%AD%A6%E7%AE%80%E4%BB%8B/" rel="next" title="密码学（五）：椭圆曲线密码学简介">

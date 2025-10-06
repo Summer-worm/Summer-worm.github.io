@@ -17,13 +17,13 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"spaceprobevoyager.org","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="椭圆曲线简介 符合以下方程的代数曲线被称作椭圆曲线： Y2 &#x3D; X3 + AX + B 如图：  为什么要在椭圆曲线上做密码学？ 因为可以在椭圆曲线上构造“加法”。在椭圆曲线 E上取两点P, Q，连接PQ交E于R，与R有相同横坐标的点记为R′。记这种运算为P ⊕ Q &#x3D; R′。如果是过P做切线，记为P ⊕ P &#x3D; 2P &#x3D; R’ 。  还有一种特殊情况，当这条直线垂直于x轴时，其">
 <meta property="og:type" content="article">
 <meta property="og:title" content="密码学（五）：椭圆曲线密码学简介">
-<meta property="og:url" content="http://example.com/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A65-%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%AF%86%E7%A0%81%E5%AD%A6%E7%AE%80%E4%BB%8B/index.html">
+<meta property="og:url" content="http://spaceprobevoyager.org/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A65-%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%AF%86%E7%A0%81%E5%AD%A6%E7%AE%80%E4%BB%8B/index.html">
 <meta property="og:site_name" content="Voyager 1的空间">
 <meta property="og:description" content="椭圆曲线简介 符合以下方程的代数曲线被称作椭圆曲线： Y2 &#x3D; X3 + AX + B 如图：  为什么要在椭圆曲线上做密码学？ 因为可以在椭圆曲线上构造“加法”。在椭圆曲线 E上取两点P, Q，连接PQ交E于R，与R有相同横坐标的点记为R′。记这种运算为P ⊕ Q &#x3D; R′。如果是过P做切线，记为P ⊕ P &#x3D; 2P &#x3D; R’ 。  还有一种特殊情况，当这条直线垂直于x轴时，其">
 <meta property="og:locale" content="zh_CN">
@@ -38,7 +38,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://pic2.zhimg.com/v2-0d95a3b6b63f8f49b72a0b0a70db9fa7_1440w.jpg">
 
-<link rel="canonical" href="http://example.com/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A65-%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%AF%86%E7%A0%81%E5%AD%A6%E7%AE%80%E4%BB%8B/">
+<link rel="canonical" href="http://spaceprobevoyager.org/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A65-%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%AF%86%E7%A0%81%E5%AD%A6%E7%AE%80%E4%BB%8B/">
 
 
 <script id="page-configurations">
@@ -293,7 +293,7 @@ mjx-container[display="true"] + br {
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A65-%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%AF%86%E7%A0%81%E5%AD%A6%E7%AE%80%E4%BB%8B/">
+    <link itemprop="mainEntityOfPage" href="http://spaceprobevoyager.org/2025/09/09/%E5%AF%86%E7%A0%81%E5%AD%A65-%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%E5%AF%86%E7%A0%81%E5%AD%A6%E7%AE%80%E4%BB%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="C:/Users/Boyang  Du/Desktop/素材/head.jpg">
